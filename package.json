@@ -1,0 +1,133 @@
+{
+    "author": "chops",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "rolexmultiface",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "RolexMultiFace",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "hrcol",
+            "mincol",
+            "hands",
+            "date",
+            "seccol",
+            "batt",
+            "secs",
+            "background"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/bg-0",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon_bluetooth_ANALOG.png",
+                    "name": "IMAGE_BLUETOOTH",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/HelveticaNeue-ThinExt.otf",
+                    "name": "FONT_CUSTOM_12",
+                    "targetPlatforms": null,
+                    "trackingAdjust": 2,
+                    "type": "font"
+                },
+                {
+                    "file": "images/bg-1",
+                    "name": "IMAGE_BACKGROUND1",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/rolexmenu.png",
+                    "menuIcon": true,
+                    "name": "MENU_IMAGE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-2",
+                    "name": "IMAGE_BACKGROUND2",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-3",
+                    "name": "IMAGE_BACKGROUND3",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-4",
+                    "name": "IMAGE_BACKGROUND4",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-5",
+                    "name": "IMAGE_BACKGROUND5",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-6",
+                    "name": "IMAGE_BACKGROUND6",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-7",
+                    "name": "IMAGE_BACKGROUND7",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "e0ac2475-ae6d-4c4f-b919-f7dfe4e5e1a2",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
